@@ -1,0 +1,10 @@
+[Unit]
+Description=Run wttr script hourly
+
+[Timer]
+Unit=wttr.service
+OnCalendar=minutely
+Persistent=true
+
+[Install]
+WantedBy=timers.target

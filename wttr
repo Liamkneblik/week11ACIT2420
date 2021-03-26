@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl wttr.in/Vancouver > wttr_output.txt
+cat wttr_output.txt
